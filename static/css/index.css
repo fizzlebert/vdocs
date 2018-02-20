@@ -1,0 +1,17 @@
+body {
+  background-color: white;
+}
+::-moz-selection {
+  color: black;
+  background: lightblue;
+}
+
+::selection {
+  color: black;
+  background: lightblue;
+}
+h1 {
+	color: black;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+}

@@ -1,0 +1,47 @@
+body {
+  background-color: white;
+}
+::-moz-selection {
+  color: black;
+  background: lightblue;
+}
+
+::selection {
+  color: black;
+  background: lightblue;
+}
+h1 {
+	color: black;
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+}
+#header {
+	width: 100%;
+	height: 4vw;
+}
+textarea {
+	width: 49.75vw;
+	border: 0 none #FFF;
+	outline:none;
+	resize: none;
+	overflow: hidden;
+	outline: none;
+	max-width: 79.75vw;
+	max-height: 80vw;
+	maxlength: 25;
+}
+#text {
+	font-family: 'Roboto', sans-serif;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	margin: auto;
+	background-color: white;
+	height: 80vw;
+	min-height: 40vw;
+	width: 50vw;
+	max-width: 50vw;
+	word-wrap: break-word;
+	outline: none;
+	max-height: 80vw;
+	overflow: hidden;
+	maxlength: 25;
+}
