@@ -3,12 +3,12 @@ body {
 }
 ::-moz-selection {
   color: black;
-  background: lightblue;
+  background: #C6C6C6;
 }
 
 ::selection {
   color: black;
-  background: lightblue;
+  background: #C6C6C6;
 }
 h1 {
 	color: black;

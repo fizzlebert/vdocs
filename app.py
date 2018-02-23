@@ -7,7 +7,7 @@ app = Flask(__name__, static_url_path="/static")
 @app.route("/")
 def index():
     """Index page where user can make new doc."""
-    return app.send_static_file("html/index.html")
+    return render_template("index.html")
 
 
 @app.route("/document/<name>")
@@ -21,10 +21,6 @@ def document(name):
     else:
         file = open(file_path, "w+")
         return render_template("document.html", name=name)
-
-@app.route("/test")
-def test():
-    return "testing purposes"
 
 
 if __name__ == "__main__":
