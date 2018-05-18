@@ -5,6 +5,7 @@
 		<title>{{name}}</title>
 	</head>
 	<link rel=stylesheet href="/static/css/document.css" />
+	<script src="/static/js/jquery-3.3.1.min.js"></script>
 	<script src="/static/js/document.js"></script>
 	<body>
 		<!-- Top div --!>
@@ -13,8 +14,8 @@
 		</div>
 
 		<!-- Text area --!>
-		<div id="text" contentEditable="true" onkeypress="return vim(event)">
-		{{content}}
+		<div id="text" contentEditable="true">
+			{{content}}
 		</div>
 	</body>
 </html>
